@@ -10,7 +10,7 @@
 Apophenia give meaning to any existing Git repository.
 
 Apophenia extract and structure all the data from a Git repository to make
-them usable in RAG or in with AI agents.
+them usable in RAG or within AI agents.
 
 Apophenia impose a meaningful interpretation on a nebulous stimulus (a Git
 repo).

@@ -1,5 +1,12 @@
 # apophenia
 
+![Build](https://github.com/4383/apophenia/actions/workflows/main.yml/badge.svg)
+![PyPI](https://img.shields.io/pypi/v/apophenia.svg)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/apophenia.svg)
+![PyPI - Status](https://img.shields.io/pypi/status/apophenia.svg)
+[![Downloads](https://pepy.tech/badge/apophenia)](https://pepy.tech/project/apophenia)
+[![Downloads](https://pepy.tech/badge/apophenia/month)](https://pepy.tech/project/apophenia/month)
+
 Impose a meaningful interpretation on a nebulous stimulus (a Git repo).
 
 Extract and structure all the data from a Git repository to make them usable

@@ -1,4 +1,4 @@
-# apophenia
+# Apophenia
 
 ![Build](https://github.com/4383/apophenia/actions/workflows/main.yml/badge.svg)
 ![PyPI](https://img.shields.io/pypi/v/apophenia.svg)

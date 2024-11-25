@@ -130,7 +130,7 @@ $ apophenia -h
 
 ## Applications
 
-Here’s a **list of potential applications** for using the apophenia. Its
+Here’s a **list of potential applications** for using apophenia. Its
 generated results (FAISS vectors and JSON metadata) can be used within a **RAG
 (Retrieval-Augmented Generation)** system:
 

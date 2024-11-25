@@ -23,7 +23,7 @@ $ apophenia https://github.com/4383/niet \
   --metadata_path /tmp/results.json
 ```
 
-And use data in a RAG (python snippet example):
+And use generated data in a RAG (python snippet example):
 
 ```python
 import faiss

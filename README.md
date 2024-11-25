@@ -15,12 +15,17 @@ them usable in RAG or in with AI agents.
 Apophenia impose a meaningful interpretation on a nebulous stimulus (a Git
 repo).
 
+## Install
+
+```bash
+$ pip install apophenia
+```
+
 ## Usage
 
 Extract data from a given repository:
 
 ```bash
-$ pip install apophenia
 $ apophenia https://github.com/4383/niet \
   --faiss_path /tmp/results.faiss \
   --metadata_path /tmp/results.json
@@ -115,6 +120,12 @@ if __name__ == "__main__":
     print("\nRetrieved Information:")
     for info in retrieved_info:
         print(info)
+```
+
+For more details:
+
+```bash
+$ apophenia -h
 ```
 
 ## Applications

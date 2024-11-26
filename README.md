@@ -26,12 +26,20 @@ $ pip install apophenia
 Extract data from a given repository:
 
 ```bash
-$ apophenia https://github.com/4383/niet \
+$ apophenia extract https://github.com/4383/niet \
   --faiss_path /tmp/results.faiss \
   --metadata_path /tmp/results.json
 ```
 
-And use generated data in a RAG (python snippet example):
+Or directly discuss with your github repo:
+
+```bash
+$ apophenia discuss https://github.com/4383/niet
+```
+
+If you simply want to extract the data and then use the generated data in a
+RAG, below is python snippet example, but the `discuss` subcommand provide
+you this kind of shortcut:
 
 ```python
 import faiss

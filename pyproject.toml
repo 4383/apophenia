@@ -45,7 +45,7 @@ dependencies = [
 dev = ["black", "isort", "pip-tools", "build", "twine", "pre-commit", "commitizen"]
 
 [project.scripts]
-apophenia = "apophenia.__init__:main"
+apophenia = "apophenia.main:main"
 
 [options.packages.find]
 where = "apophenia"

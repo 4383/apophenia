@@ -8,7 +8,7 @@ import faiss
 import numpy as np
 from git import Repo
 
-from apophenia import (
+from apophenia.api.extract import (
     clone_repo,
     extract_commit_history,
     generate_embeddings,
@@ -27,7 +27,7 @@ class TestGitProcessing(unittest.TestCase):
         self.assertEqual(len(chunks), 6)
         self.assertTrue(all(len(chunk) == chunk_size for chunk in chunks))
 
-    @patch("apophenia.Repo")
+    @patch("apophenia.api.extract.Repo")
     def test_extract_commit_history(self, mock_repo):
         # Mock commit history
         mock_commit = MagicMock()
@@ -43,7 +43,7 @@ class TestGitProcessing(unittest.TestCase):
         self.assertEqual(commit_data[0]["message"], "Initial commit")
         self.assertIn("diff --git", commit_data[0]["diff"])
 
-    @patch("apophenia.SentenceTransformer")
+    @patch("apophenia.api.extract.SentenceTransformer")
     def test_generate_embeddings(self, mock_model):
         # Mock embedding generation
         fragments = ["test fragment 1", "test fragment 2"]
